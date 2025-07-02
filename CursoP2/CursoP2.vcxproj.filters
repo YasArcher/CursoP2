@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Funcionamiento">
+      <UniqueIdentifier>{d06c4106-d138-4ea5-9e7c-0bdf9e980147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modulo1">
+      <UniqueIdentifier>{0c5b260e-f8c8-46c1-b624-47b23a2b5121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modulo2">
+      <UniqueIdentifier>{acba3fb3-bdfe-4366-861a-3689ec2fe7ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modulo3">
+      <UniqueIdentifier>{7798beb9-7deb-4dea-932e-61e95a98c29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Moddulo4">
+      <UniqueIdentifier>{500a335d-8c9a-40b7-ac63-b61d4e1bf66e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CursoP2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Funcionamiento.cpp">
+      <Filter>Funcionamiento</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio1.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio2.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio3.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio4.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio5.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio6.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio7.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio8.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio9.cpp">
+      <Filter>Modulo1</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio10.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio11.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio12.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio13.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio14.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio15.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio16.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio17.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio18.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio19.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio20.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio21.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio22.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio23.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio24.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio25.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio26.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio27.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio28.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio29.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio30.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio31.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio32.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio33.cpp">
+      <Filter>Modulo2</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio34.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio35.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio36.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio37.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio38.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio39.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio40.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio41.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio42.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio43.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio44.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio45.cpp">
+      <Filter>Modulo3</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio46.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio47.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio48.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio49.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio50.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio51.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio52.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio53.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio54.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio55.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio56.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio57.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio58.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+    <ClCompile Include="ejercicio59.cpp">
+      <Filter>Moddulo4</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Funcionamiento.h">
+      <Filter>Funcionamiento</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio1.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio2.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio3.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio4.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio5.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio6.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio7.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio8.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio9.h">
+      <Filter>Modulo1</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio10.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio11.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio12.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio13.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio14.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio15.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio16.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio17.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio18.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio19.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio20.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio21.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio22.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio23.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio24.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio25.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio26.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio27.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio28.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio29.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio30.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio31.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio32.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio33.h">
+      <Filter>Modulo2</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio34.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio35.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio36.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio37.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio38.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio39.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio40.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio41.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio42.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio43.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio44.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio45.h">
+      <Filter>Modulo3</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio46.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio47.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio48.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio49.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio50.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio51.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio52.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio53.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio54.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio55.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio56.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio57.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio58.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+    <ClInclude Include="ejercicio59.h">
+      <Filter>Moddulo4</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

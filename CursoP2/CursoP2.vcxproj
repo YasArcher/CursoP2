@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e0d94bc4-8386-4b64-ad2e-ca8be85c822b}</ProjectGuid>
+    <RootNamespace>CursoP2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CursoP2.cpp" />
+    <ClCompile Include="ejercicio1.cpp" />
+    <ClCompile Include="ejercicio10.cpp" />
+    <ClCompile Include="ejercicio11.cpp" />
+    <ClCompile Include="ejercicio12.cpp" />
+    <ClCompile Include="ejercicio13.cpp" />
+    <ClCompile Include="ejercicio14.cpp" />
+    <ClCompile Include="ejercicio15.cpp" />
+    <ClCompile Include="ejercicio16.cpp" />
+    <ClCompile Include="ejercicio17.cpp" />
+    <ClCompile Include="ejercicio18.cpp" />
+    <ClCompile Include="ejercicio19.cpp" />
+    <ClCompile Include="ejercicio2.cpp" />
+    <ClCompile Include="ejercicio20.cpp" />
+    <ClCompile Include="ejercicio21.cpp" />
+    <ClCompile Include="ejercicio22.cpp" />
+    <ClCompile Include="ejercicio23.cpp" />
+    <ClCompile Include="ejercicio24.cpp" />
+    <ClCompile Include="ejercicio25.cpp" />
+    <ClCompile Include="ejercicio26.cpp" />
+    <ClCompile Include="ejercicio27.cpp" />
+    <ClCompile Include="ejercicio28.cpp" />
+    <ClCompile Include="ejercicio29.cpp" />
+    <ClCompile Include="ejercicio3.cpp" />
+    <ClCompile Include="ejercicio30.cpp" />
+    <ClCompile Include="ejercicio31.cpp" />
+    <ClCompile Include="ejercicio32.cpp" />
+    <ClCompile Include="ejercicio33.cpp" />
+    <ClCompile Include="ejercicio34.cpp" />
+    <ClCompile Include="ejercicio35.cpp" />
+    <ClCompile Include="ejercicio36.cpp" />
+    <ClCompile Include="ejercicio37.cpp" />
+    <ClCompile Include="ejercicio38.cpp" />
+    <ClCompile Include="ejercicio39.cpp" />
+    <ClCompile Include="ejercicio4.cpp" />
+    <ClCompile Include="ejercicio40.cpp" />
+    <ClCompile Include="ejercicio41.cpp" />
+    <ClCompile Include="ejercicio42.cpp" />
+    <ClCompile Include="ejercicio43.cpp" />
+    <ClCompile Include="ejercicio44.cpp" />
+    <ClCompile Include="ejercicio45.cpp" />
+    <ClCompile Include="ejercicio46.cpp" />
+    <ClCompile Include="ejercicio47.cpp" />
+    <ClCompile Include="ejercicio48.cpp" />
+    <ClCompile Include="ejercicio49.cpp" />
+    <ClCompile Include="ejercicio5.cpp" />
+    <ClCompile Include="ejercicio50.cpp" />
+    <ClCompile Include="ejercicio51.cpp" />
+    <ClCompile Include="ejercicio52.cpp" />
+    <ClCompile Include="ejercicio53.cpp" />
+    <ClCompile Include="ejercicio54.cpp" />
+    <ClCompile Include="ejercicio55.cpp" />
+    <ClCompile Include="ejercicio56.cpp" />
+    <ClCompile Include="ejercicio57.cpp" />
+    <ClCompile Include="ejercicio58.cpp" />
+    <ClCompile Include="ejercicio59.cpp" />
+    <ClCompile Include="ejercicio6.cpp" />
+    <ClCompile Include="ejercicio7.cpp" />
+    <ClCompile Include="ejercicio8.cpp" />
+    <ClCompile Include="ejercicio9.cpp" />
+    <ClCompile Include="Funcionamiento.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ejercicio1.h" />
+    <ClInclude Include="ejercicio10.h" />
+    <ClInclude Include="ejercicio11.h" />
+    <ClInclude Include="ejercicio12.h" />
+    <ClInclude Include="ejercicio13.h" />
+    <ClInclude Include="ejercicio14.h" />
+    <ClInclude Include="ejercicio15.h" />
+    <ClInclude Include="ejercicio16.h" />
+    <ClInclude Include="ejercicio17.h" />
+    <ClInclude Include="ejercicio18.h" />
+    <ClInclude Include="ejercicio19.h" />
+    <ClInclude Include="ejercicio2.h" />
+    <ClInclude Include="ejercicio20.h" />
+    <ClInclude Include="ejercicio21.h" />
+    <ClInclude Include="ejercicio22.h" />
+    <ClInclude Include="ejercicio23.h" />
+    <ClInclude Include="ejercicio24.h" />
+    <ClInclude Include="ejercicio25.h" />
+    <ClInclude Include="ejercicio26.h" />
+    <ClInclude Include="ejercicio27.h" />
+    <ClInclude Include="ejercicio28.h" />
+    <ClInclude Include="ejercicio29.h" />
+    <ClInclude Include="ejercicio3.h" />
+    <ClInclude Include="ejercicio30.h" />
+    <ClInclude Include="ejercicio31.h" />
+    <ClInclude Include="ejercicio32.h" />
+    <ClInclude Include="ejercicio33.h" />
+    <ClInclude Include="ejercicio34.h" />
+    <ClInclude Include="ejercicio35.h" />
+    <ClInclude Include="ejercicio36.h" />
+    <ClInclude Include="ejercicio37.h" />
+    <ClInclude Include="ejercicio38.h" />
+    <ClInclude Include="ejercicio39.h" />
+    <ClInclude Include="ejercicio4.h" />
+    <ClInclude Include="ejercicio40.h" />
+    <ClInclude Include="ejercicio41.h" />
+    <ClInclude Include="ejercicio42.h" />
+    <ClInclude Include="ejercicio43.h" />
+    <ClInclude Include="ejercicio44.h" />
+    <ClInclude Include="ejercicio45.h" />
+    <ClInclude Include="ejercicio46.h" />
+    <ClInclude Include="ejercicio47.h" />
+    <ClInclude Include="ejercicio48.h" />
+    <ClInclude Include="ejercicio49.h" />
+    <ClInclude Include="ejercicio5.h" />
+    <ClInclude Include="ejercicio50.h" />
+    <ClInclude Include="ejercicio51.h" />
+    <ClInclude Include="ejercicio52.h" />
+    <ClInclude Include="ejercicio53.h" />
+    <ClInclude Include="ejercicio54.h" />
+    <ClInclude Include="ejercicio55.h" />
+    <ClInclude Include="ejercicio56.h" />
+    <ClInclude Include="ejercicio57.h" />
+    <ClInclude Include="ejercicio58.h" />
+    <ClInclude Include="ejercicio59.h" />
+    <ClInclude Include="ejercicio6.h" />
+    <ClInclude Include="ejercicio7.h" />
+    <ClInclude Include="ejercicio8.h" />
+    <ClInclude Include="ejercicio9.h" />
+    <ClInclude Include="Funcionamiento.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
